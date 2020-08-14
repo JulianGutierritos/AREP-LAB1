@@ -1,8 +1,8 @@
-# Calculadora de media y desviación estandar #
+# Calculadora de media y desviación estándar #
 
 ## Prerrequisitos ##
 
-La persona que quiera utilizar este programa debe tener conocimientos básicos en Java y Maven. Además, es necesario tener claras las definiciones de desviación estandar y media.
+La persona que quiera utilizar este programa debe tener conocimientos básicos en Java y Maven. Además, es necesario tener claras las definiciones de desviación estándar y media.
 
 ## Herramientas utilizadas para el desarrollo ##
 
@@ -15,14 +15,14 @@ Para el desarrollo de este programa se utilizó:
 
 ## Descripción ## 
 
-Este programa fue diseñado para calcular la media y la desviación estandar de los datos que se le ingresen mediante un archivo de texto plano (.txt). El usuario a la hora de ejecutarlo deberá ingresar la ruta del archivo .txt donde se encuentran linea por linea los datos de los cuales quiere conocer su media y desviación estandar.
+Este programa fue diseñado para calcular la media y la desviación estándar de los datos que se le ingresen mediante un archivo de texto plano (.txt). El usuario a la hora de ejecutarlo deberá ingresar la ruta del archivo .txt donde se encuentran linea por linea los datos de los cuales quiere conocer su media y desviación estándar.
 
 ## Modelo ##
 ![](images/modelo.PNG)
 
 Se implementó una lista doblemente enlazada que permite: agregar, eliminar y obtener cualquier elemento de la lista en tiempo lineal. Esta lista fue utilizada por una clase principal que: lee los datos, los almacena en una lista, realiza los cálculos y, finalmente, entrega por pantalla la respuesta al usuario.
 
-En el repositorio se encuentra un archivo .PDF que explica más a profundidad el diseño del programa.
+En el repositorio se encuentra un archivo [Pdf](LAB_01.pdf) que explica más a profundidad el diseño del programa.
 
 ## Instrucciones para su compilación, ejecución y generación de documentación ##
 
