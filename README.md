@@ -54,6 +54,10 @@ Si desea generar una nueva documentación del programa, debe ejecutar la siguien
 
 Vale recalcar que el programa ya cuenta con archivos de documentación ubicados en la carpeta "Documentacion".
 
+## Licencia ## 
+
+La licencia de este proyecto es: [**GNU General Public License v3.0**](LICENSE)
+
 ## Autor ##
 
 Julián David Gutiérrez Vanegas
