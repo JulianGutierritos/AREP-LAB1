@@ -9,12 +9,15 @@ import java.lang.Math;
 
 /**
  * Es una calculadora que dado un archivo con una fila de datos, calcula la media y desviación estandar de estos.
+ * @author Julian Gutierrez
+ * @version 1.0 
  */
 public class CalculadoraApp {
 
     /**
-     * Metodo principal que dado la ruta de un archivo, calcula la media y desviación estandar de los datos que se encuentren en dicho archivo.
+     * Metodo principal que dado la ruta de un archivo, calcula la media y desviación estandar de los datos que se encuentren en dicho archivo y los imprime en pantalla.
      * @param args La ruta del archivo que contiene los datos
+	 * @throws IOException en caso de no poder leer completamente el archivo con los datos
      */
     public static void main( String[] args ) throws IOException {
 		try{
@@ -25,11 +28,17 @@ public class CalculadoraApp {
 		}
     }
 	
+	/**
+     * Metodo para calcular la desviación estandar y la media dado unos datos que se encuentran en un archivo de texto.
+     * @param ruta Ruta del archivo de texto con los datos 
+	 * @return String que contiene la desviación estandar y media de los datos del archivo o un mensaje que informa al usuario que el archivo con los datos no fue encontrado.
+	 * @throws IOException en caso de no poder leer completamente el archivo con los datos
+     */
 	public static String calcularMediaYDesviacion(String ruta) throws IOException{
         try{
 			FileReader f = new FileReader(ruta);
 			BufferedReader b = new BufferedReader(f);
-			LinkedList lista = new LinkedList(); 
+			Lista lista = new LinkedList(); 
 			String cadena;
 			double numero;
 			//FileReader f = new FileReader("src/test/java/edu/eci/arep/Prueba1.txt");
